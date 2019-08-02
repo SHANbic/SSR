@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <div>I'm on the very very best home component</div>
-      <button onClick={() => console.log('Hi there!')}>Press me</button>
+      <button onClick={() => alert('Hi there!')}>Press me</button>
     </div>
   );
 };
