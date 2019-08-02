@@ -7048,7 +7048,7 @@ app.get('/', function (req, res) {
 });
 
 app.listen(port, function () {
-  console.log('Listening of port ' + port);
+  console.log('Listening on port ' + port);
 });
 
 /***/ }),
@@ -22770,7 +22770,7 @@ var Home = function Home() {
   return _react2.default.createElement(
     'div',
     null,
-    'I\'m on the home component'
+    'I\'m on the very very best home component'
   );
 };
 
