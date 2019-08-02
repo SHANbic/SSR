@@ -22781,7 +22781,18 @@ var Home = function Home() {
   return _react2.default.createElement(
     'div',
     null,
-    'I\'m on the very very best home component'
+    _react2.default.createElement(
+      'div',
+      null,
+      'I\'m on the very very best home component'
+    ),
+    _react2.default.createElement(
+      'button',
+      { onClick: function onClick() {
+          return console.log('Hi there!');
+        } },
+      'Press me'
+    )
   );
 };
 
