@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 const Header = ({ auth }) => {
-  console.log('Logged in :', auth);
-
   const authButton = auth ? (
     <a href="/api/logout">Logout</a>
   ) : (
