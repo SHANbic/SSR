@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { fetchAdmins } from '../actions';
-import renderer from '../../helpers/renderer';
 
 class AdminsListPage extends React.Component {
   componentDidMount() {
